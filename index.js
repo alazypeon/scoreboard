@@ -33,3 +33,8 @@ function add3Away() {
     awayScore += 3;
     awayStoreEl.textContent = awayScore;
 }
+
+function reset() {
+    homeStoreEl.textContent = 0;
+    awayStoreEl.textContent = 0;
+}
